@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="GreenGrass">#00AA4E</color>
+    <color name="LightGreen">#039F27</color>
+    <color name="DefaultColor">#808080</color>
+    <color name="White">#ffffff</color>
+    <color name="Gray">#696969</color>
+    <color name="Black">#000000</color>
+    <color name="Transparent">#0000</color>
+    <color name="LightGray">#D0D0D0</color>
+    <color name="place_autocomplete_search_hint">#A9A9A9</color>
+    <color name="DirtyWhite">#faebd7</color>
+    <color name="FacebookBlue">#3b5998</color>
+    <color name="Red">#ff0000</color>
+</resources>

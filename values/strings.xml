@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Agrify</string>
+    <string name="usernamelogin">USERNAME:</string>
+    <string name="passwordlogin">PASSWORD:</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="noaccountyet">NO ACCOUNT YET?</string>
+    <string name="createyouragrifyaccount">CREATE YOUR AGRIFY ACCOUNT</string>
+    <string name="back">Back</string>
+    <string name="newaccount">NEW ACCOUNT</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="location">Location:</string>
+    <string name="contactno">Contact no.</string>
+    <string name="emailaddress">Email address</string>
+    <string name="typeofuser">Type of user:</string>
+    <string name="createaccount">Create Account</string>
+    <string name="searchaddress">Search address</string>
+    <string name="successfullysignup">SUCCESFULLY SIGNUP</string>
+    <string name="thankyouverymuchforyourcooperation">Thank you very much for your cooperation.</string>
+    <string name="logout">Logout</string>
+    <string name="needs">Needs</string>
+    <string name="inbox">Inbox</string>
+    <string name="favorites">Favorites</string>
+    <string name="notifications">Notifications</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="createdemand">Create Demand</string>
+    <string name="mydemand">My Demand</string>
+    <string name="postproduct">Post Product</string>
+    <string name="myproduct">My Product</string>
+    <string name="crops">CROPS</string>
+    <string name="livestocks">LIVESTOCKS</string>
+    <string name="poultry">POULTRY</string>
+    <string name="fisheries">FISHERIES</string>
+    <string name="name">NAME</string>
+    <string name="srp">SRP</string>
+    <string name="numberString">999.</string>
+    <string name="overAllDemandString">100,000 KG</string>
+    <string name="productType">Product Name</string>
+    <string name="demand">DEMAND</string>
+    <string name="demandProper">Demand</string>
+    <string name="addphoto">ADD PHOTO</string>
+    <string name="agriculturalSector">AGRICULTURAL SECTOR</string>
+    <string name="product">PRODUCT</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="priceperkilo">PRICE (per kilo)</string>
+    <string name="demandbykilo">DEMAND (by kilo)</string>
+    <string name="variety">VARIETY</string>
+    <string name="durationend">DURATION END</string>
+    <string name="searchcrops">SEARCH FOR AGRICULTURAL CROPS</string>
+    <string name="searchpoultries">SEARCH FOR AGRICULTURAL POULTRIES</string>
+    <string name="searchlivestocks">SEARCH FOR AGRICULTURAL LIVESTOCKS</string>
+    <string name="searchfisheries">SEARCH FOR AGRICULTURAL FISHERIES</string>
+    <string name="searchvendor">SEARCH FOR MARKET VENDOR</string>
+    <string name="colon">:</string>
+    <string name="people">PEOPLE</string>
+    <string name="updated">UPDATED</string>
+    <string name="type">TYPE</string>
+    <string name="viewprofile">VIEW PROFILE</string>
+    <string name="message">MESSAGE</string>
+    <string name="demanddetails">DEMAND DETAILS</string>
+    <string name="pricebudget">PRICE (BUDGET)</string>
+    <string name="demandkg">DEMAND (kg)</string>
+    <string name="askforinquiry">ASK FOR INQUIRY</string>
+    <string name="editprofile">EDIT PROFILE</string>
+    <string name="mydemandprofile">MY DEMAND</string>
+    <string name="notificationsprofile">NOTIFICATIONS</string>
+    <string name="uploadphoto">UPLOAD PHOTO</string>
+    <string name="update">UPDATE</string>
+    <string name="dash">-</string>
+    <string name="minimum">Minimum</string>
+    <string name="maximum">Maximum</string>
+    <string name="filterdemands">FILTER DEMANDS</string>
+    <string name="pricephp">PRICE(php)</string>
+    <string name="reset">RESET</string>
+    <string name="apply">APPLY</string>
+    <string name="cancel">CANCEL</string>
+    <string name="on">ON</string>
+    <string name="active">ACTIVE</string>
+    <string name="seeall">SEE ALL</string>
+    <string name="done">DONE</string>
+    <string name="deleted">DELETED</string>
+    <string name="manage">Manage</string>
+    <string name="minimize">Minimize</string>
+    <string name="delete">DELETE</string>
+    <string name="remove">REMOVE</string>
+    <string name="markasdone">MARK AS DONE</string>
+    <string name="deleteitem">DELETE ITEM</string>
+    <string name="viewupdatedemand">VIEW/UPDATE DEMAND</string>
+    <string name="editdemmand">EDIT DEMAND</string>
+    <string name="receivedkilograms">KILOGRAMS RECEIVED</string>
+    <string name="inputreceivedkilograms">INPUT KILOGRAMS RECEIVED</string>
+    <string name="save">SAVE</string>
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="youmaynowadd">You are verified vendor! You may now add demand</string>
+    <string name="adddemand">ADD DEMAND</string>
+    <string name="inboxcapital">INBOX</string>
+    <string name="default_notification_channel_id">notify_id_1</string>
+    <string name="default_notification_channel_title">You\'ve received a new message</string>
+    <string name="notificationlog">NOTIFICATION LOG</string>
+    <string name="redemand">REDEMAND</string>
+    <string name="empty">EMPTY</string>
+    <string name="year">YEAR</string>
+    <string name="month">MONTH</string>
+    <string name="day">DAY</string>
+    <string name="search">SEARCH</string>
+    <string name="durationenddate">DURATION END DATE</string>
+    <string name="businesspermit">BUSINESS PERMIT</string>
+    <string name="demandsyoumayhave">DEMANDS YOU MAY HAVE</string>
+    <string name="ratings">RATINGS</string>
+    <string name="locationString">LOCATION</string>
+    <string name="filterneeds">FILTER NEEDS</string>
+    <string-array name="typeofuserarray">
+        <item>Farmer</item>
+        <item>Vendor</item>
+        <item>Provider</item>
+    </string-array>
+    <string-array name="agriculturalsectorarray">
+        <item> </item>
+        <item>CROPS</item>
+        <item>LIVESTOCKS</item>
+        <item>POULTRIES</item>
+        <item>FISHERIES</item>
+    </string-array>
+    <string name="title_activity_filter_demanders">Map</string>
+
+    <string name="errorProductName">Please input valid product</string>
+    <string name="errorProductPrice">Please input valid product productPrice</string>
+    <string name="errorProductBrand">Please input valid product brand</string>
+    <string name="errorProductCategory">Please input valid product category</string>
+    <string name="errorAgricultureSector">Please input valid agriculture sector</string>
+    <string name="errorProductDescription">Please input valid product description</string>
+    <string name="errorProductQuantity">Please input valid product quantity</string>
+</resources>
