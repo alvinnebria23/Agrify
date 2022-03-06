@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:id="@+id/swipe_refresh_myproduct_id"
+    tools:context=".activities.MyProduct">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Active"
+                    android:textColor="#FFC107"
+                    android:textSize="14sp"
+                    android:background="#F1F1F1"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_active_product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:id="@+id/empty_view_myproduct_active_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:layout_margin="15dp"
+                    android:text="No Data Available" />
+
+            </LinearLayout>
+            <TextView
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#E2E1E1"
+                android:text="SEE ALL"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duplicate"
+                    android:textColor="#E91E63"
+                    android:textSize="14sp"
+                    android:background="#F1F1F1"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_duplicate_product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:id="@+id/empty_view_myproduct_duplicate_id"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_margin="15dp"
+                    android:text="No Data Available" />
+
+            </LinearLayout>
+            <TextView
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#E2E1E1"
+                android:text="SEE ALL"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sold"
+                    android:textColor="#4CAF50"
+                    android:textSize="14sp"
+                    android:background="#F1F1F1"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_sold_product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:id="@+id/empty_view_myproduct_sold_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:layout_margin="15dp"
+                    android:text="No Data Available" />
+
+
+            </LinearLayout>
+            <TextView
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#E2E1E1"
+                android:text="SEE ALL"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deleted"
+                    android:textColor="#9C27B0"
+                    android:textSize="14sp"
+                    android:background="#F1F1F1"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_deleted_product_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:id="@+id/empty_view_myproduct_deleted_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:layout_margin="15dp"
+                    android:text="No Data Available" />
+
+
+            </LinearLayout>
+            <TextView
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#E2E1E1"
+                android:text="SEE ALL"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
